@@ -1,0 +1,38 @@
+.contact {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact_info {
+    display: flex;
+    font-weight: 400;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-bottom: 40px;
+  }
+  
+  .contact_info_item {
+    /* font-weight: 800; */
+    margin: 10px 0;
+    font-size: large;
+    display: flex;
+  }
+  
+  .icon {
+    margin-right: 15px; /* Adjust the margin as needed */
+  }
+  /* Responsive Styles */
+  
+  @media (max-width: 767px) {
+    /* Styles for mobile devices */
+    .contact_info {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablet devices */
+    .contact_info {
+      font-size: 16px;
+    }
+  }

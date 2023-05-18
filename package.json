@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.6.1",
+    "@sanity/client": "^5.4.2",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.10.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "net": "^1.0.2",
+    "next": "^13.3.4",
+    "next-sanity": "^4.3.2",
+    "next-sanity-image": "^6.0.0",
+    "nodemailer": "^6.9.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "sanity": "^3.10.0",
+    "styled-components": "^5.3.10"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}
