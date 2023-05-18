@@ -51,7 +51,7 @@ function ContactForm() {
       setTouched({});
       setState(initState);
       toast({
-        title: "Message sent. We'll be in touch with you ASAP!",
+        title: "Message sent. We will be in touch with you ASAP!",
         status: "success",
         duration: 2000,
         position: "top",
