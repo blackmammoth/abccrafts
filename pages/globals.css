@@ -215,6 +215,7 @@ width: 100%;
 }
 
 .hero-banner-container button{
+  display: none;
    border-radius: 15px;
   padding: 10px 16px;
   background-color: #f02d34;
