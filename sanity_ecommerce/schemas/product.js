@@ -27,14 +27,34 @@ export default {
             }
         },
         {
-            name: 'price',
-            title: 'Price',
-            type: 'number',
+            name: 'canvasSize',
+            title: 'Canvas Size',
+            type: 'string',
         },
         {
-            name: 'details',
-            title: 'Details',
+            name: 'threadLength',
+            title: 'Thread Length',
             type: 'string',
+        },
+        {
+            name: 'nails',
+            title: 'Nails',
+            type: 'number'
+        },
+        {
+            name: 'distanceNails',
+            title: 'Distance Between Nails',
+            type: 'string'
+        },
+        {
+            name: 'steps',
+            title: 'Steps',
+            type: 'number'
+        },
+        {
+            name: 'story',
+            title: 'Story',
+            type: 'string'
         }
     ]
 }

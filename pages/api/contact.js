@@ -26,7 +26,7 @@ const generateEmailContent = (data) => {
 const handler = async (req, res) => {
   if (req.method === "POST") {
     const data = req.body;
-    if (!data || !data.name || !data.email || !data.telephone) {
+    if (!data || !data.name || !data.telephone) {
       return res.status(400).send({ message: "Bad request" });
     }
 
