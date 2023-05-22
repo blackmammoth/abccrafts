@@ -215,6 +215,7 @@ width: 100%;
 }
 
 .hero-banner-container button{
+  display: none;
    border-radius: 15px;
   padding: 10px 16px;
   background-color: #f02d34;
@@ -692,6 +693,10 @@ margin-top: 160px;
 }
 .product-max-qty{
   margin-top: 10px;
+}
+
+.hero-banner-container {
+  display: none;
 }
 
 @media screen and (max-width:800px) {

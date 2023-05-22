@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,8 +13,6 @@
     "@sanity/client": "^5.4.2",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.10.0",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.4",
     "net": "^1.0.2",
     "next": "^13.3.4",
     "next-sanity": "^4.3.2",
