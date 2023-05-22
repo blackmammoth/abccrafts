@@ -645,7 +645,7 @@ padding: 6px;
 }
 
 .maylike-products-wrapper{
-  margin-top: 120px;
+  margin-top: 20px;
 }
 .maylike-products-wrapper h2{
   text-align: center;
@@ -754,8 +754,9 @@ margin-top: 160px;
     display: none;
 
   }
+  
   .maylike-products-wrapper{
-    margin-top: 450px;
+    margin-top: 20px;
   }
 
   .hero-banner-image{
@@ -820,8 +821,8 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container{
-    width: 550px;
-    height: 550px;
+    width: auto;
+    height: auto;
   }
   .cart-container{
     width: 415px;

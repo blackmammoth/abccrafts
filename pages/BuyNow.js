@@ -124,7 +124,7 @@ function BuyNow() {
           name="message"
           isDisabled
           rows={4}
-          value={values.message[0] + ": " + values.message[1]}
+          value={values.message[0]}
         />
       </FormControl>
 
