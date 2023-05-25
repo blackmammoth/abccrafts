@@ -144,4 +144,10 @@ export const getStaticProps = async ({ params: { slug } }) => {
   };
 };
 
+export const config = {
+  api: {
+    responseLimit: false,
+  },
+}
+
 export default ProductDetails;
