@@ -4,6 +4,11 @@ export default {
     type: 'document',
     fields: [
         {
+           name: 'order',
+           title: 'Order',
+           type: 'number' 
+        },
+        {
             name: 'image',
             title: 'Image',
             type: 'array',
@@ -55,6 +60,16 @@ export default {
             name: 'story',
             title: 'Story',
             type: 'string'
+        }
+    ],
+    orderings: [
+        {
+            title: 'Order',
+            name: 'orderNumber',
+            by: [
+                {field: 'order', direction: 'asc'}
+            ]
+
         }
     ]
 }

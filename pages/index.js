@@ -4,6 +4,7 @@ import { Product, FooterBanner } from '@/components'
 import { client } from '@/lib/client';
 
 const Home = ({products, bannerData}) => {
+  {console.log(products[0]._id)}
   return (
     <div>
     <div className='products-heading'>
@@ -13,6 +14,7 @@ const Home = ({products, bannerData}) => {
     <div className='products-container'>
       {products?.map(
         (product) => <Product key={product._id} product={product}/>
+        
       )}
     </div>
     <FooterBanner footerBanner={bannerData && bannerData[1]}/>
@@ -31,6 +33,12 @@ export const getServerSideProps = async () => {
   return {
     props: { products, bannerData }
   }
+}
+
+export const config = {
+  api: {
+    responseLimit: false,
+  },
 }
 
 export default Home
